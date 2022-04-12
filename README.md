@@ -14,6 +14,7 @@
 ### Backend Tasks
 
 * Create RegisterServlet 
+* Create UserService => register method
 * Create UserValidation => validate method
 * Create UserDAO => save method
 
