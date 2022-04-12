@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Admission app</h1>
+<form onsubmit="register()">
+<div>
+<input type="text" id="name" placeholder="Name" [(ngModel)]="name"/> 
+</div>
+<div>
+<input type="text" id="email" placeholder="Email" /> 
+</div>
+<div>
+<input type="text" id="password" placeholder="Password" /> 
+</div>
+<div>
+<button type="submit">Submit</button>
+</div>
+</form>
+
+<script src="user-validation.js"></script>
+<script src="user-service.js"></script>
+<script src="register-component.js"></script>
+</body>
+
+</html>
